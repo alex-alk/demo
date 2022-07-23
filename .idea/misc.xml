@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/drawable/button_beat_box_normal.xml" value="0.1405" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/drawable/button_beat_box_pressed.xml" value="0.1405" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/activity_beatbox.xml" value="0.234375" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/activity_cheat.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/activity_criminal_intent.xml" value="0.10648148148148148" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/activity_drag_and_draw.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/activity_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/activity_geo_quiz.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/activity_nerd_launcher.xml" value="0.1096757852077001" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/activity_sunset.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/fragment_crime.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/fragment_photo_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/fragment_photo_page.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/list_item_crime.xml" value="0.1" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/list_item_gallery.xml" value="0.10840932117527863" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/list_item_sound.xml" value="0.10815602836879433" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/layout/nav_graph.xml" value="0.16" />
+        <entry key="..\:/Users/Alex/Documents/Projects/Android/demo/app/src/main/res/menu/fragment_photo_gallery.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

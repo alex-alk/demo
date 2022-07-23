@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.alexandruleonte.demo">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <permission android:name="com.alexandruleonte.demo.gallery.PRIVATE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.alexandruleonte.demo.gallery.PRIVATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Demo"
+        tools:targetApi="31">
+        <activity
+            android:name=".GalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gallery.PhotoPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CriminalIntentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BeatboxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NerdLauncherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".geo.CheatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeoQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DragAndDrawActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SunsetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.alexandruleonte.demo.cintent.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/files" />
+        </provider>
+    </application>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.PICK" />
+            <data android:mimeType="vnd.android.cursor.dir/contact" />
+        </intent>
+    </queries>
+
+</manifest>
